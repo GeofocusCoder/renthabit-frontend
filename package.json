@@ -11,6 +11,8 @@
     "db:push": "drizzle-kit push"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.888.0",
+    "@aws-sdk/client-secrets-manager": "^3.888.0",
     "@azure/msal-node": "^3.6.4",
     "@hookform/resolvers": "^3.10.0",
     "@jridgewell/trace-mapping": "^0.3.25",
@@ -61,8 +63,8 @@
     "drizzle-zod": "^0.7.0",
     "embla-carousel-react": "^8.6.0",
     "express": "^4.21.2",
-    "express-rate-limit": "^8.0.1",
-    "express-session": "^1.18.1",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
     "express-validator": "^7.2.1",
     "framer-motion": "^11.13.1",
     "helmet": "^8.1.0",
